@@ -1,0 +1,125 @@
+#over_all{
+    background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url(images/img-4.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 100%;
+   
+}
+button{
+    float: right;
+    margin-right: 30px;
+    background-color: rgb(19, 112, 233);
+    color: white;
+    border: solid 2px rgb(19, 112, 233);
+    border-radius: 5px;
+}
+#breadcrum{
+    float: left;
+    margin-left: 20px;
+   
+}
+#rightdiv{
+    float: right;
+    margin-right: 30px;
+   
+}
+#leftdiv{
+    margin-left: 10px;
+    
+}
+
+h1{
+    float: left;
+    font-size: 20px;
+    padding: 15px;
+  
+}
+#page-head{
+    background-color: black;
+    color: white;
+    
+}
+#container{
+    background-color: black; 
+    color: white;
+    padding: 30px;
+    opacity: 75%;
+    
+   
+    
+}
+#div2{
+    padding: 10px;
+    margin-left: 10px;
+}
+a{
+    color: white;
+    text-decoration: none;
+}
+
+.our_prop{
+    margin-left: 30px;
+}
+.login2{
+    margin-left: 20px;
+}
+#register{
+    padding: 40px;
+    background-color: black;
+    color: white;
+    margin-left: 100px;
+    margin-top: 200px;
+    width: 600px;
+    opacity: 75%;
+    border: solid 2px white;
+    
+    
+    
+}
+.button2{
+    background-color: black;
+    color: white;
+    width: 150px;
+    border: solid 2px white;
+    border-radius: 5px;
+    margin-right: 450px;
+}
+.password{
+    width: 200px;
+    margin-left: 50px;
+    margin-top: 20px;
+}
+#myform{
+    background-color: white;
+    width: 300px;
+    height: 200px;
+    text-align: center;
+    margin-bottom: 30px; 
+    padding: 30px;  
+    margin: auto;
+    
+}
+    
+.form_text {
+    text-align: left;
+    margin-left: 20px;
+    color: gray;
+    padding-top: 10px;
+}
+select{
+    background-color: gray;
+}
+.forgot_pass{
+    margin-top: 50px;
+    margin-left: 150px;
+    color: cyan;
+}
+.login{
+    background-color: gray;
+    color: white;
+    border: gray;
+    width: 200px;
+    height: 30px;
+    margin-left: 60px;
+}
