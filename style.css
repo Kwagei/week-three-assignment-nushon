@@ -1,10 +1,13 @@
-#over_all{
+body{
     background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url(images/img-4.jpg);
     background-size: cover;
     background-repeat: no-repeat;
-    width: 100%;
-    height: 100%;
-   
+    
+    
+}
+
+#div_body{
+    position: relative;
 }
 button{
     float: right;
@@ -16,38 +19,35 @@ button{
 }
 #breadcrum{
     float: left;
-    margin-left: 20px;
-   
+    margin-left: 20px; 
+}
+.breadcrum_home{
+    opacity: 50%;
 }
 #rightdiv{
     float: right;
     margin-right: 30px;
-   
 }
 #leftdiv{
     margin-left: 10px;
-    
 }
 
 h1{
     float: left;
     font-size: 20px;
-    padding: 15px;
-  
+    padding: 15px; 
+    margin-right: 10px;
+    background-color: ;
 }
 #page-head{
-    background-color: black;
-    color: white;
-    
+    background-color: red;
+    color: white;  
 }
 #container{
     background-color: black; 
     color: white;
     padding: 30px;
     opacity: 75%;
-    
-   
-    
 }
 #div2{
     padding: 10px;
@@ -73,9 +73,6 @@ a{
     width: 600px;
     opacity: 75%;
     border: solid 2px white;
-    
-    
-    
 }
 .button2{
     background-color: black;
@@ -92,13 +89,15 @@ a{
 }
 #myform{
     background-color: white;
-    width: 300px;
-    height: 200px;
+    width: 400px;
+    height: 300px;
     text-align: center;
     margin-bottom: 30px; 
     padding: 30px;  
     margin: auto;
-    
+    position: absolute;
+    top: -20px;
+    left: 400px;
 }
     
 .form_text {
@@ -113,7 +112,7 @@ select{
 .forgot_pass{
     margin-top: 50px;
     margin-left: 150px;
-    color: cyan;
+    color: rgb(12, 231, 213);
 }
 .login{
     background-color: gray;
