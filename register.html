@@ -3,8 +3,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Mayo INC</title>
-    <link rel="stylesheet" href="style.css">
+    <title>Mayo INC | REGISTER</title>
+    <link rel="stylesheet" href="register.css">
 </head>
 
 <body>
@@ -18,17 +18,18 @@
             </div>
         
             <div id="leftdiv">
-            <a href="index.html">Home</a> <div id="rightdiv">
-            <a href="#">Login</a>
+            <a href="login.html">Home</a>
+             <div id="rightdiv">
+            <a href="login.html">Login</a>
             |
-            <a href="#">Register</a></div>
+            <a href="register.html">Register</a></div>
             <a class="our_prop" href="#">Our Properties</a>  
             </div>
             <hr>
             <div >
-            <a class="breadcrum_home" href="#">Home</a> 
+            <a class="breadcrum_home" href="login.html">Home</a> 
             &gt;
-            <a class="login2" href="#">Login</a>
+            <a class="register_breadcrum" href="register.html">Register</a>
             <button>Post a Property</button>
             </nav>
            
@@ -40,14 +41,17 @@
     <main>
         <div id="div_body">
         <div id="register">
-            <h3><b>Don't have an account?</b></h3>
-            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Reiciendis dignissimos doloremque maiores necessitatibus, repudiandae in illo eius. Suscipit, sit quos maiores iusto, vitae et autem sint quis, cumque voluptas sequi.</p>
+            <h3><b>Already have an account?</b></h3>
+            <p style="text-align: right; padding: 5px;">Lorem ipsum dolor, sit amet consectetur adipisicing. <br> elit Reiciendisdignissimos doloremque maiores neces.</p>
             <button class="button2"><b>Register</b></button>
         </div>
         <div id="myform">
-            <h3 class="form_text">LOGIN</h3>
+            <h3 class="form_text">REGISTER</h3>
             
             <form action="#">
+                <input type="text" placeholder="Full Name">
+                <br>
+                <br>
                 <select name="tel" id="tel">
                     <option value="Liberia">+231</option>
                     <option value="Ghana">+233</option>
@@ -57,11 +61,13 @@
                 <br>
                 <input class="password" type="password" placeholder="Password">
                 <br>
+                
+                <p style="text-align: right;"> I agree to the <b>Terms and Conditions</b></p>
                 <br>
-                <a class="forgot_pass"href="#"><b>Forgot Password?</b></a>
+                <button class="login">Register</button>
                 <br>
-                <br>
-                <button class="login">LOGIN</button>
+                
+                <p style="color: gray; margin-top: 20px;">Register with</p>
 
             </form>
 
