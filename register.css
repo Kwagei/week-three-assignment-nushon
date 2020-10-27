@@ -1,0 +1,129 @@
+body{
+    background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url(images/img-4.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+   
+    
+}
+
+#div_body{
+    display: grid;
+    grid-template-columns: 30% 40%;
+}
+button{
+    float: right;
+    margin-right: 30px;
+    background-color: rgb(19, 112, 233);
+    color: white;
+    border: solid 2px rgb(19, 112, 233);
+    border-radius: 5px;
+}
+#breadcrum{
+    float: left;
+    margin-left: 20px; 
+}
+.breadcrum_home{
+    opacity: 50%;
+}
+#rightdiv{
+    float: right;
+    margin-right: 30px;
+}
+#leftdiv{
+    margin-left: 10px;
+}
+
+h1{
+    float: left;
+    font-size: 20px;
+    padding: 15px; 
+    margin-right: 10px;
+    background-color: ;
+}
+#page-head{
+    background-color: red;
+    color: white;  
+}
+#container{
+    background-color: black; 
+    color: white;
+    padding: 30px;
+    opacity: 75%;
+}
+#div2{
+    padding: 10px;
+    margin-left: 10px;
+}
+a{
+    color: white;
+    text-decoration: none;
+}
+p{
+    padding: 10px;
+    text-align: left;
+}
+
+.our_prop{
+    margin-left: 30px;
+}
+.login2{
+    margin-left: 20px;
+}
+#register{
+    padding: 40px;
+    background-color: black;
+    color: white;
+    margin-left: 50px;
+    margin-top: 200px;
+    width: 750px;
+    height: 150px;
+    opacity: 75%;
+    border: solid 2px white;
+    text-align: right;
+}
+.button2{
+    background-color: black;
+    color: white;
+    width: 150px;
+    border: solid 2px white;
+    border-radius: 5px;
+    margin-left: 400px;
+}
+.password{
+    width: 200px;
+    margin-left: 50px;
+    margin-top: 20px;
+}
+#myform{
+    background-color: white;
+    width: 300px;
+    height: 300px;
+    text-align: center;
+    position: absolute;
+    padding: 40px;  
+    margin-right: 300px;
+    margin-top: 150px;
+}
+    
+.form_text {
+    text-align: left;
+    margin-left: 20px;
+    color: gray;
+    padding-top: 10px;
+}
+select{
+    background-color: gray;
+}
+.forgot_pass{
+    margin-top: 50px;
+    margin-left: 150px;
+    color: rgb(12, 231, 213);
+}
+.login{
+    background-color: gray;
+    color: white;
+    border: gray;
+    width: 200px;
+    height: 30px;
+    margin-left: 40px;
+}
