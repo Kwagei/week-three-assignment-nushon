@@ -227,14 +227,14 @@ footer{
     grid-template-columns: 50% 50%;
 }
 .down_2{
-    margin-left: 830px;
+    margin-left: 800px;
 }
 .copyright{
     margin-left: 90px;
     width: 200%;
 }
 .hr1{
-    width: 100%;
+    width: 200%;
 }
 .my-button{
     display: grid;

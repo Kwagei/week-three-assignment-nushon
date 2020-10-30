@@ -6,9 +6,11 @@ body{
     
 }
 
+
 #div_body{
     display: grid;
     grid-template-columns: 30% 40%;
+    margin-left: 150px;
 }
 button{
     float: right;
@@ -118,7 +120,7 @@ select{
 .forgot_pass{
     margin-top: 50px;
     margin-left: 150px;
-    color: rgb(12, 231, 213);
+    color: rgb(50, 160, 151);
 }
 .login{
     background-color: gray;
