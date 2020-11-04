@@ -50,7 +50,7 @@ h1{
     background-color: black; 
     color: white;
     padding: 30px;
-    opacity: 75%;
+    opacity: 70%;
 }
 #div2{
     padding: 10px;
@@ -71,16 +71,24 @@ p{
 .login2{
     margin-left: 20px;
 }
+
+.post{
+    height: 25px;
+    width: 13%;
+    margin-left: 15px;
+    
+}
 #register{
     padding: 40px;
     background-color: black;
     color: white;
     margin-left: 50px;
-    margin-top: 200px;
+    margin-top: 150px;
     width: 750px;
-    height: 150px;
-    opacity: 75%;
+    height: 180px;
+    opacity: 65%;
     border: solid 2px white;
+    font-size: 100%;
 }
 .button2{
     background-color: black;
@@ -89,10 +97,12 @@ p{
     border: solid 2px white;
     border-radius: 5px;
     margin-right: 600px;
+    height: 25px;
+    margin-top: 5px;
 }
 .password{
-    width: 200px;
-    margin-left: 50px;
+    width: 260px;
+    margin-left: -3px;
     margin-top: 20px;
 }
 #myform{
@@ -102,8 +112,8 @@ p{
     text-align: center;
     position: absolute;
     padding: 40px;  
-    margin-left: 480px;
-    margin-top: 150px;
+    margin-left: 470px;
+    margin-top: 100px;
 
    
 }
@@ -126,7 +136,55 @@ select{
     background-color: gray;
     color: white;
     border: gray;
-    width: 200px;
+    width: 150px;
     height: 30px;
-    margin-left: 40px;
+    margin-right: -1px;
+}
+
+#lock{
+    margin-top: -25px;
+    margin-right: 250px;
+    position: relative;
+}
+
+#pasw{
+    height: 17px; 
+    width: 15px; 
+    position: relative;
+}
+
+.call{
+    margin-top: -25px;
+    margin-right: 100px;
+    position: relative;
+}
+
+.phonecall{
+    height: 17px; 
+    width: 15px; 
+    position: relative;
+}
+
+.fb{
+    margin-top: -45px;
+    margin-right: 110px;
+    position: relative;
+}
+
+.fblogo{
+    height: 15px; 
+    width: 15px; 
+    position: relative;
+}
+
+.twitter{
+    margin-top: -20px;
+    margin-right: 60px;
+    position: relative;
+}
+
+.twitterlogo{
+    height: 17px; 
+    width: 15px; 
+    position: relative;
 }

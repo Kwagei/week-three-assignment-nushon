@@ -92,7 +92,13 @@ label{
     background-color: rgb(206, 206, 206);
     margin-top: 10px;
     color: rgb(80, 80, 80);
+    padding: 10px;
 }
+
+#text1{
+    margin-top: 15px;
+}
+
 .input_1{
     width: 70%;
 }
