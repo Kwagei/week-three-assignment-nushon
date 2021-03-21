@@ -2,55 +2,82 @@ body{
     background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url(images/img-4.jpg);
     background-size: cover;
     background-repeat: no-repeat;
+    height: 680px;
+    margin: 0px;
    
     
 }
 
+
 #div_body{
     display: grid;
     grid-template-columns: 30% 40%;
-    margin-left: 200px;
+    margin-left: 150px;
 }
-button{
-    float: right;
-    margin-right: 30px;
+.post{
+    /* float: right; */
+    
     background-color: rgb(19, 112, 233);
     color: white;
     border: solid 2px rgb(19, 112, 233);
     border-radius: 5px;
+    width: 100%;
+    height: 100%;
 }
-#breadcrum{
-    float: left;
-    margin-left: 20px; 
+
+#hr{
+    width: 240%;
+    height: 2px;
+    margin: 10px 0px 0px 0px;
+    background-color: gray;
+}
+
+#homLogin{
+    margin: 0px 0px 0px 0px;
+    /* background-color: crimson; */
 }
 .breadcrum_home{
     opacity: 50%;
 }
 #rightdiv{
-    float: right;
-    margin-right: 30px;
+    /* background-color: cadetblue; */
+    text-align: right;
+    margin-right: -50px;
 }
-#leftdiv{
-    margin-left: 10px;
-}
+/* #leftdiv{
+    background-color: burlywood;
+   
+} */
 
-h1{
-    float: left;
-    font-size: 20px;
-    padding: 15px; 
-    margin-right: 10px;
-    background-color: ;
-}
+
 #page-head{
-    background-color: red;
-    color: white;  
+    background-color:#000000;
+    color: white; 
+    text-align: center;
+    margin-left: auto;
+    
+    /* width: %;  */
+    /* position: absolute; */
+   
 }
 #container{
-    background-color: black; 
+    display: grid;
+    grid-template-columns: 15% 75%;
+    column-gap: 10%;
+    background-color: rgb(14, 13, 13);
     color: white;
     padding: 30px;
-    opacity: 75%;
+    opacity: 65%;
+    margin: 0%;
+    /* position: relative; */
 }
+
+#container2{
+    display: grid;
+    grid-template-columns: 40% 40%;
+    column-gap: 10%;
+}
+
 #div2{
     padding: 10px;
     margin-left: 10px;
@@ -66,6 +93,16 @@ p{
 
 .our_prop{
     margin-left: 30px;
+}
+.login2{
+    margin-left: 20px;
+}
+
+.post{
+    height: 25px;
+    width: 13%;
+    margin-left: 15px;
+    
 }
 .login2{
     margin-left: 20px;
@@ -103,7 +140,7 @@ p{
     position: absolute;
     padding: 30px;  
     margin-left: 75px;
-    margin-top: 100px;
+    margin-top: 130px;
     color: gray;
 }
 

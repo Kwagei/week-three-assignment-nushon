@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Mayo INC | REGISTER</title>
+    <title>mayo-inc-|login</title>
     <link rel="stylesheet" href="register.css">
 </head>
 
@@ -12,25 +12,37 @@
     
     <header>
       
-        <nav id="container">
+        <nav>
+
+            <div id="container">
             <div id="page-head">
-            <h1 style="background-color: rgb(31, 30, 30); margin-top: -5px; margin-left: -10px;">MAYO INC</h1>
+            <h1>MAYO INC</h1>
             </div>
+
+            <div id="container2">
         
             <div id="leftdiv">
-            <a href="login.html">Home</a>
-             <div id="rightdiv">
+            <a href="login.html">Home</a> 
+            <a class="our_prop" href="properties.html">Our Properties</a>
+            </div>
+
+            <div id="rightdiv">
             <a href="login.html">Login</a>
             |
-            <a href="register.html">Register</a></div>
-            <a class="our_prop" href="properties.html">Our Properties</a>  
+            <a href="register.html">Register</a>
             </div>
-            <hr>
-            <div >
+            <div id="hr"></div>
+            <div id="homLogin" style="margin: 20px 0px 0px -455px;">
             <a class="breadcrum_home" href="login.html">Home</a> 
             &gt;
-            <a class="register_breadcrum" href="register.html">Register</a>
-            <button>Post a Property</button>
+            <a class="login_breadcrum" href="register.html">Register</a>
+            </div>
+            <button class="post" style=" width: 30%; margin: -20px 0px 0px 760px;">Post a Property</button>
+           
+            </div>
+            </div>
+
+            </div>
             </nav>
            
             
@@ -46,33 +58,33 @@
             <button class="button2"><b>Register</b></button>
         </div>
         <div id="myform">
-            <h2 class="form_text">REGISTER</h2>
-            
+           
             <form action="#">
-                <input type="text" placeholder="Full Name" style="background-color: rgb(206, 206, 206); border: none; padding: 8px; width: 88%;">
+                <h2 class="form_text">REGISTER</h2>
+                <input required type="text" placeholder="Full Name" style="background-color: rgb(206, 206, 206); border: none; padding: 8px; width: 88%;">
                 <br>
                 <br>
                 <select name="tel" id="tel" style="padding: 6px; color: white;">
                     <option value="Liberia">+231</option>
                     <option value="Ghana">+233</option>
                     <option value="Nigeria">+232</option>
-                    <input type="text" placeholder="          Phone Number" style="background-color: rgb(206, 206, 206); border: none; padding: 8px;">
+                    <input required type="text" placeholder="          Phone Number" style="background-color: rgb(206, 206, 206); border: none; padding: 8px;">
                     <div class="call"> 
                         <img src="./images/phone-call.png" alt="Phone" class="phonecall">
                     </div>
                 </select>
                 <br>
                 
-                <input class="password" type="password" placeholder="       Password" style="background-color: rgb(206, 206, 206); border: none; padding: 8px; width: 88%; margin-left: -5px;">
+                <input required class="password" type="password" placeholder="       Password" style="background-color: rgb(206, 206, 206); border: none; padding: 8px; width: 88%; margin-left: -5px;">
                 <div id="lock">
                    <img src="./images/lock.png" alt="pasw" id="pasw">
                 </div>
-                <br>
+                
                 
                 <p style="text-align: right;"> I agree to the <b>Terms and Conditions</b></p>
                 <br>
-                <button class="login">Register</button>
-                <br>
+                <a href="login.html"><button class="login">Register</button></a>
+                
                 
                 <p style="color: gray; margin-top: 20px;">Register with</p>
 
@@ -94,7 +106,7 @@
         </div>
         </main>
 
-    </main>
+   
     </div>
 </body>
 </html>
